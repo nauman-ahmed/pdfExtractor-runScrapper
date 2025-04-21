@@ -16,6 +16,7 @@ import json
 import random
 from datetime import date
 from webdriver_manager.chrome import ChromeDriverManager
+import os
 
 
 def get_links_from_issues_science_direct():
@@ -162,8 +163,8 @@ def actual_paper_links(total_links):
     
 def filter_links(total_links_issues):
     filtered_links = []
-    url = "http://127.0.0.1:8000/check-link"
-    editor_url = "http://127.0.0.1:8000/check-editor-link"
+    url = f"{os.getenv("DJANGO_URL", "http://127.0.0.1:8000")}/check-link"
+    editor_url = f"{os.getenv("DJANGO_URL", "http://127.0.0.1:8000")}/check-editor-link"
     
     for link in total_links_issues:
         
@@ -362,7 +363,7 @@ def get_scrapped_data(link):
 def send_links_to_scrape(unique_links):
     url_add_paper = "http://127.0.0.1:8000/add-paper"
     url_insert_ignore = "http://127.0.0.1:8000/insert-ignored-links"
-    url_insert_editor = "http://127.0.0.1:8000/insert-editor-links"
+    url_insert_editor = f"{os.getenv("DJANGO_URL", "http://127.0.0.1:8000")}/insert-editor-links"
     
     data = []
     link_ignored = []
@@ -407,7 +408,7 @@ def send_links_to_scrape(unique_links):
     return data, link_ignored
 
 def get_business_score(abstract_list):
-    url = "http://127.0.0.1:8000/get-business-score"
+    url = f"{os.getenv("DJANGO_URL", "http://127.0.0.1:8000")}/get-business-score"
 
     # Prepare the request payload
     #abstract_list = data_frame["abstract"].tolist()
@@ -446,7 +447,7 @@ def add_columns_score_justification_created_on(data, score_justification):
     return data_frame
 
 def add_papers_to_db(updated_data):
-    url = "http://127.0.0.1:8000/add-paper"
+    url = f"{os.getenv("DJANGO_URL","http://127.0.0.1:8000")}/add-paper"
 
     for index, row in updated_data.iterrows():
         
