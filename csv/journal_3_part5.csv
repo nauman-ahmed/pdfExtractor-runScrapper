@@ -1,0 +1,628 @@
+link,title,published_year,keywords,author_email,abstract,publication_title,created_on,score,justification
+https://www.sciencedirect.com/science/article/pii/S0950584920300902,Understanding the relationship of conflict and success in software development projects,October 2020,Not Found,Mohammad R.=Basirati: Not Found; Marko=Otasevic: Not Found; Koushyar=Rajavi: Not Found; Markus=Böhm: Not Found; Helmut=Krcmar: Not Found,"Abstract
+Context
+Software development incorporates numerous people with diverse expertise and expectations. This makes conflict a common phenomenon in software development. Besides human causes, many conflicts in software development root in the tools and processes. Moreover, the growing role of software in any type of system is increasing the heterogeneity in software projects. The number and variety of tools and processes are increasing. Nevertheless, the relationship between conflicts, particularly rooted in non-human elements, and software project success is still unclear.
+Objective
+We aim to understand the impact of conflict on the success of software development projects for different types of conflict and different environments. Particularly, we distinguish between human-rooted conflict (HRC) and non-human-rooted conflict (NHRC). Moreover, we investigate whether organization size and team size moderate the impact of conflict on software project success.
+Methods
+First, we conduct a survey and analyze it using 
+structural equation modeling
+ (SEM) to investigate any correlation between conflict and software project success. Second, we explore the reasons behind the relationship between conflict and software project success by conducting 13 semi-structured expert interviews.
+Results
+HRC is always a threat to software project success for any organization or team size. Based on the interviews, resolving an HRC is regularly problematic. On the other hand, NHRC is negatively correlated with software project success only in corporate organizations and small teams. High coordination overhead and dependency on tools and processes make NHRC more influential in corporate organizations. In contrast, overlooking non-human elements and lack of experienced individuals in smaller teams make them more vulnerable to NHRC.
+Conclusion
+While the detrimental impact of HRC is constant for software project success, NHRC can be controlled efficiently. Corporate organizations need to frequently improve the non-human elements in the development. Smaller teams should expect tools and processes to be significantly influential in their success.",Information and Software Technology,18 Mar 2025,8,"The study provides valuable insights into the impact of conflict on software project success, distinguishing between human-rooted and non-human-rooted conflict. The findings can help organizations improve software development processes and manage conflicts more effectively."
+https://www.sciencedirect.com/science/article/pii/S0950584920301026,Investigating the relationship between personalities and agile team climate of software professionals in a telecom company,October 2020,Not Found,Sai Datta=Vishnubhotla: sai-datta.vishnubhotla@bth.se; Emilia=Mendes: Not Found; Lars=Lundberg: Not Found,"Abstract
+Context
+Previous research found that the performance of a team not only depends on the team personality composition, but also on the interactive effects of team climate. Although investigation on personalities associated with software development has been an active research area over the past decades, there has been very limited research in relation to team climate.
+Objective
+Our study investigates the association between the 
+five factor model
+ 
+personality traits
+ (openness to experience, 
+conscientiousness
+, extraversion, agreeableness and neuroticism) and the factors related to team climate (team vision, participative safety, support for innovation and task orientation) within the context of agile teams working in a 
+telecom company
+.
+Method
+A survey was used to gather data on personality characteristics and team climate perceptions of 43 members from eight agile teams. The data was initially used for correlation analysis; then, regression models were developed for predicting the 
+personality traits
+ related to team climate perception.
+Results
+We observed a statistically significant 
+positive correlation
+ between openness to experience and support for innovation (r = 0.31). Additionally, agreeableness was observed to be positively correlated with overall team climate (r = 0.35). Further, from regression models, we observed that 
+personality traits
+ accounted to less than 15% of the variance in team climate.
+Conclusion
+A person's ability to easily get along with team members (agreeableness) has a significant positive influence on the perceived level of team climate. Results from our 
+regression analysis
+ suggest that further data may be needed, and/or there are other human factors, in addition to 
+personality traits
+, that should also be investigated with regard to their relationship with team climate. Overall, the relationships identified in our study are likely to be applicable to organizations within the telecommunications domain that use scrum methodology for software development.",Information and Software Technology,18 Mar 2025,6,"The study explores the association between personality traits and team climate within agile teams, providing some insights into the importance of agreeableness and openness to experience. While the findings are interesting, the practical implications for startups may be limited."
+https://www.sciencedirect.com/science/article/pii/S0950584920300914,Recommending refactorings via commit message analysis,October 2020,Not Found,Soumaya=Rebai: srebal@umich.edu; Marouane=Kessentini: marouane@umich.edu; Vahid=Alizadeh: alizadeh@umich.edu; Oussama Ben=Sghaier: oussama@umich.edu; Rick=Kazman: kazman@hawaii.edu,"Abstract
+Context
+The purpose of software restructuring, or refactoring, is to improve software quality and developer productivity.
+Objective
+Prior studies have relied mainly on static and dynamic analysis of code to detect and recommend refactoring opportunities, such as code smells. Once identified, these smells are fixed by applying refactorings which then improve a set of quality metrics. While this approach has value and has shown promising results, many detected refactoring opportunities may not be related to a developer’s current context and intention. Recent studies have shown that while developers document their refactoring intentions, they may miss relevant refactorings aligned with their rationale.
+Method
+In this paper, we first identify refactoring opportunities by analyzing developer commit messages and check the quality improvements in the changed files, then we distill this knowledge into usable context-driven refactoring recommendations to complement static and dynamic analysis of code.
+Results
+The evaluation of our approach, based on six 
+open source projects
+, shows that we outperform prior studies that apply refactorings based on static and dynamic analysis of code alone.
+Conclusion
+This study provides compelling evidence of the value of using the information contained in existing commit messages to recommend future refactorings.",Information and Software Technology,18 Mar 2025,9,"The study introduces a novel approach to recommending refactoring opportunities based on developer commit messages, outperforming prior studies. This has significant practical value for early-stage ventures looking to improve software quality and productivity."
+https://www.sciencedirect.com/science/article/pii/S0950584920301178,Neural networks learn to detect and emulate sorting algorithms from images of their execution traces,October 2020,Not Found,Cătălin F.=Perticas: perticascatalin@gmail.com; Bipin=Indurkhya: bipin.indurkhya@uj.edu.pl,"Abstract
+Context
+Recent advancements in the applicability of 
+neural networks
+ across a variety of fields, such as 
+computer vision
+, 
+natural language processing
+ and others, have re-sparked an interest in program induction methods. (Kitzelman 
+[1]
+, Gulwani et al. 
+[2]
+ or Kant [3].)
+Problem
+When performing a program induction task, it is not feasible to search across all possible programs that map an input to an output because the number of possible combinations or sequences of instructions is too high: at least an 
+exponential growth
+ based on the generated program length. Moreover, there does not exist a general framework to formulate such program induction tasks and current computational limitations do not allow a very wide range of 
+machine learning
+ applications in the field of computer programs generation.
+Objective
+In this study, we analyze the effectiveness of execution traces as 
+learning representations
+ for 
+neural network models
+ in a program induction set-up. Our goal is to generate visualizations of program execution dynamics, specifically of sorting algorithms, and to apply 
+machine learning techniques
+ on them to capture their semantics and emulate their behavior using 
+neural networks
+.
+Method
+We begin by classifying images of execution traces for algorithms working on a finite array of numbers, such as various sorting and 
+data structures
+ algorithms. Next we experiment with detecting sub-program patterns inside the trace sequence of a larger program. The last step is to predict future steps in the execution of various sorting algorithms. More specifically, we try to emulate their behavior by observing their execution traces. We also discuss generalizations to other classes of programs, such as 1-D 
+cellular automata
+.
+Results
+Our experiments show that 
+neural networks
+ are capable of modeling the mechanisms underlying simple algorithms if enough execution traces are provided as data. We compare the performance of our program induction model with other similar experimental results from Graves et al. [4] and Vinyals et al. [5]. We were also able to demonstrate that sorting algorithms can be treated both as images displaying spatial patterns, as well as sequential instructions in a 
+domain specific language
+, such as swapping two elements. We tested our approach on three types of increasingly harder tasks: detection, recognition and emulation.
+Conclusions
+We demonstrate that simple algorithms can be modelled using 
+neural networks
+ and provide a method for representing specific classes of programs as either images or sequences of instructions in a domain-specific language, such that a neural network can learn their behavior. We consider the complexity of various set-ups to arrive at some improvements based on the 
+data representation
+ type. The insights from our experiments can be applied for designing better models of program induction.",Information and Software Technology,18 Mar 2025,7,"The study explores the effectiveness of using execution traces as learning representations for neural network models in program induction tasks. While the findings are interesting and relevant to computer science research, the direct impact on early-stage ventures may be limited."
+https://www.sciencedirect.com/science/article/pii/S0950584920301282,Requirements elicitation methods based on interviews in comparison: A family of experiments,October 2020,Not Found,Silvia=Rueda: silvia.rueda@uv.es; Jose Ignacio=Panach: joigpana@uv.es; Damiano=Distante: damiano.distante@unitelmasapienza.it,"Abstract
+Context
+There are several methods to elicit requirements through interviews between an end-user and a team of software developers. The choice of the best method in this context is usually on subjective developers’ preferences instead of objective reasons. There is a lack of empirical evaluations of methods to elicit requirements that help developers to choose the most suitable one.
+Objective
+This paper designs and conducts a family of experiments to compare three methods to elicit requirements: Unstructured Interviews, where there is no specific protocol or artifacts; 
+Joint
+ Application Design (JAD), where each member of the development team has a specific role; Paper Prototyping, where developers contrast the requirements with the end-user through prototypes.
+Method
+The experiment is a between-subjects design with next response variables: number of requirements, time, diversity, completeness, quality and performance. The experiment consists of a maximum of 4 rounds of interviews between students that play the role of developers and an instructor that plays the role of client. Subjects had to elaborate a requirements specification document as results of the interviews. We recruited 167 subjects in 4 replications in 3 years. Subjects were gathered in development teams of 6 developers at most, and each team was an experimental unit.
+Results
+We found some significant differences. Paper Prototyping yields the best results to elicit as many requirements as possible, JAD requires the highest time to report the requirements and the least overlapping, and Unstructured Interviews yields the highest overlapping and the lowest time to report the requirements.
+Conclusions
+Paper Prototyping is the most suitable for eliciting functional requirements, JAD is the most suitable for non-functional requirements and to avoid overlapping, Unstructured Interviews is the fastest but with poor quality in the results.",Information and Software Technology,18 Mar 2025,7,"The study compares different methods to elicit requirements, providing insights into the strengths and weaknesses of each approach. While the findings can be valuable for software development teams, the direct impact on European early-stage ventures may vary."
+https://www.sciencedirect.com/science/article/pii/S0950584920301154,A statistical pattern based feature extraction method on system call traces for anomaly detection,October 2020,Not Found,Zhen=Liu: Not Found; Nathalie=Japkowicz: Not Found; Ruoyu=Wang: rywang@scut.edu.cn; Yongming=Cai: Not Found; Deyu=Tang: Not Found; Xianfa=Cai: Not Found,"Abstract
+Context
+In host-based 
+anomaly detection
+, feature extraction on the system call traces is important to build an effective 
+anomaly detection
+ model. Different kinds of feature extraction methods are recently proposed and most of them aim at preserving the positional information of the system calls within a trace. These extracted features are generally named from system calls, therefore, cannot be used directly in the case of cross platform applications. In addition, some of these feature extraction methods are very costly to implement.
+Objective
+This paper presents a new feature extraction method. It aims at extracting features that are irrelevant to the names of system calls. The samples represented by the extracted features can be directly used in the case of cross platform applications. In addition, this method is lightweight in that the feature values are not expensive to compute.
+Method
+The proposed method firstly transforms the system calls in a trace into frequency sequences of n-grams and then explores a fixed number of statistical features on the frequency sequences. The extracted features are irrelevant to the names/indexes of system calls on a platform. The calculation of feature values works on the frequency sequences rather than on system call sequences. These feature vectors built on the training set with only normal data are then used to train a one class 
+classification model
+ for 
+anomaly detection
+.
+Results
+We compared our method with four previously proposed feature extraction methods on system call traces. When used on the same platform, even though our method does not always obtain the highest AUC, overall, it performs better than all the compared methods. When testing on cross platform, it performs the best among all compared methods.
+Conclusion
+The features extracted by our method are platform-independent and are suitable for 
+anomaly detection
+ across platforms.",Information and Software Technology,18 Mar 2025,8,"The proposed feature extraction method for anomaly detection is platform-independent, lightweight, and outperforms existing methods on both same platform and cross-platform applications."
+https://www.sciencedirect.com/science/article/pii/S0950584920301324,Effort-Aware semi-Supervised just-in-Time defect prediction,October 2020,Not Found,Weiwei=Li: liweiwei@nuaa.edu.cn; Wenzhou=Zhang: wenzhou2671@163.com; Xiuyi=Jia: jiaxy@njust.edu.cn; Zhiqiu=Huang: zqhuang@nuaa.edu.cn,"Abstract
+Context
+Software defect
+ prediction is an important technique that can help practitioners allocate their quality assurance efforts. In recent years, just-in-time (JIT) 
+defect prediction
+ has attracted considerable interest, as it enables developers to identify risky changes at check-in time.
+Objective
+Many studies have conducted research from supervised and unsupervised perspectives. A model that does not rely on label information would be preferred. However, the performance of unsupervised models proposed by previous studies in the classification scenario was unsatisfactory due to the lack of 
+supervised information
+. Furthermore, most supervised models fail to outperform simple unsupervised models in the ranking scenario. To overcome this weakness, we conduct research from the semi-supervised perspective that only requires a small quantity of labeled data for training.
+Method
+In this paper, we propose a semi-supervised model for JIT defect prediction named Effort-Aware Tri-Training (EATT), which is an effort-aware method using a 
+greedy strategy
+ to rank changes. We compare EATT with the state-of-the-art supervised and unsupervised models with respect to different labeled rate.
+Results
+The experimental results on six open-source projects demonstrate that EATT outperforms existing supervised and unsupervised models for effort-aware JIT defect prediction, and has similar or superior performance in classifying defect-inducing changes.
+Conclusion
+The results show that EATT can not only achieve high 
+classification accuracy
+ as supervised models, but also offer more practical value than other compared models from the perspective of the effort needed to review changes.",Information and Software Technology,18 Mar 2025,7,"The semi-supervised model EATT for defect prediction offers practical value by outperforming existing supervised and unsupervised models, requiring only a small amount of labeled data for training."
+https://www.sciencedirect.com/science/article/pii/S0950584920301336,Simplifying the Search of npm Packages,October 2020,Not Found,Ahmad=Abdellatif: a_bdella@encs.concordia.ca; Yi=Zeng: ze_yi@encs.concordia.ca; Mohamed=Elshafei: m_lshafe@encs.concordia.ca; Emad=Shihab: eshihab@encs.concordia.ca; Weiyi=Shang: shang@encs.concordia.ca,"Abstract
+Context
+Code reuse, generally done through software packages, allows developers to reduce time-to-market and improve code quality. The npm ecosystem is a Node.js package 
+management system
+ which contains more than 700 K Node.js packages and to help developers find high-quality packages that meet their needs, npms developed a search engine to rank Node.js packages in terms of quality, popularity, and maintenance. However, the current ranking mechanism for npms tends to be arbitrary and contains many different equations, which increases complexity and computation.
+Objective
+The goal of this paper is to empirically improve the efficiency of npms by simplifying the used components without impacting the current npms package ranks.
+Method
+We use feature selection methods with the aim of simplifying npms’ equations. We remove the features that do not have a significant effect on the package’s rank. Then, we study the impact of the simplified npms on the packages’ rank, the amount of resources saved compared to the original npms, and the performance of the simplified npms as npm evolves.
+Results
+Our findings indicate that (1) 31% of the unique variables of npms’ equation can be removed without breaking the original packages’ ranks; (2) The simplified npms, on average, preserves the overlapping of the packages by 98% and the ranking of those packages by 97%; (3) Using the simplified npms saves 10% of packages scoring time and more than 1.47 million network requests on each scoring run; (4) As the npm evolve through a period of 12 months, the simplified-npms was able to achieve results similar to the original npms.
+Conclusion
+Our results show that the simplified npms preserves the original ranks of packages and is more efficient than the original npms. We believe that using our approach, helps the npms community speed up the scoring process by saving 
+computational resources
+ and time.",Information and Software Technology,18 Mar 2025,9,"The study on simplifying the npm ranking mechanism shows significant improvements in efficiency, preserving original package ranks while saving resources and time, making it highly valuable for developers."
+https://www.sciencedirect.com/science/article/pii/S0950584920300689,Model composition in Model Driven Engineering: A systematic literature review,September 2020,Not Found,Anas=Abouzahra: anas.abouzahra@edu.uiz.ac.ma; Ayoub=Sabraoui: Not Found; Karim=Afdel: Not Found,"Abstract
+Context
+Model Driven Engineering
+ (MDE) aims to alleviate complexity and improve 
+reusability
+ in software development. The development of complex software implies to divide it into independent parts before then assembled. This is how the problem of model composition has become an interesting and stills an emerging topic in MDE.
+Objective
+Our goal is to analyze the current state of the art in model composition in the context of 
+Model Driven Engineering
+.
+Method
+We use the 
+systematic literature review
+ based on the guidelines proposed by Biolchini et al., Brereton et al., and Kitchenham and Charters. We propose five research questions and six quality assessments.
+Results
+Of the 9270 search results, 56 have been considered relevant studies. These studies have resulted in 36 primary studies.
+Conclusion
+The evaluation shows that most of approaches allow more than two models as inputs of the composition, allow composing heterogeneous models and enable the tuning of the composition schema, while the important limitations are about the maturity of implementations and the lack on the management of future evolutions or 
+backwards compatibility
+.",Information and Software Technology,18 Mar 2025,5,"The analysis of model composition in Model Driven Engineering provides insights into the current state of the art, but the limitations in implementation maturity and handling future evolutions impact its practical value for early-stage ventures."
+https://www.sciencedirect.com/science/article/pii/S0950584920300689,Model composition in Model Driven Engineering: A systematic literature review,September 2020,Not Found,Anas=Abouzahra: anas.abouzahra@edu.uiz.ac.ma; Ayoub=Sabraoui: Not Found; Karim=Afdel: Not Found,"Abstract
+Context
+Model Driven Engineering
+ (MDE) aims to alleviate complexity and improve 
+reusability
+ in software development. The development of complex software implies to divide it into independent parts before then assembled. This is how the problem of model composition has become an interesting and stills an emerging topic in MDE.
+Objective
+Our goal is to analyze the current state of the art in model composition in the context of 
+Model Driven Engineering
+.
+Method
+We use the 
+systematic literature review
+ based on the guidelines proposed by Biolchini et al., Brereton et al., and Kitchenham and Charters. We propose five research questions and six quality assessments.
+Results
+Of the 9270 search results, 56 have been considered relevant studies. These studies have resulted in 36 primary studies.
+Conclusion
+The evaluation shows that most of approaches allow more than two models as inputs of the composition, allow composing heterogeneous models and enable the tuning of the composition schema, while the important limitations are about the maturity of implementations and the lack on the management of future evolutions or 
+backwards compatibility
+.",Information and Software Technology,18 Mar 2025,5,"Similar to abstract 9, the analysis of model composition in Model Driven Engineering provides valuable insights but lacks practical guidance for early-stage ventures due to limitations in implementation maturity and evolution management."
+https://www.sciencedirect.com/science/article/pii/S0950584920300719,Automated isolation for white-box test generation,September 2020,"Testing, Test generation, White-box, Isolation, Mocking, Code transformation, Empirical evaluation",Dávid=Honfi: honfi@mit.bme.hu; Zoltán=Micskei: micskeiz@mit.bme.hu,"Abstract
+Context:
+ White-box test generation is a technique used for automatically selecting test inputs using only the code under test. However, such techniques encounter challenges when applying them to complex programs. One of the challenges is handling invocations to external modules or dependencies in the code under test.
+Objective:
+ Without using proper isolation, like mocks, generated tests cannot cover all parts of the source code. Moreover, invoking 
+external dependencies
+ may cause unexpected side effects (e.g., accessing the file system or network). Our goal was to tackle this issue while maintaining the advantages of white-box test generation.
+Method:
+ In this paper, we present an automated approach addressing the external dependency challenge for white-box test generation. This technique isolates the test generation and execution by transforming the code under test and creating a parameterized sandbox with generated mocks. We implemented the approach in a ready-to-use tool using Microsoft Pex as a test generator, and evaluated it on 10 open-source projects from GitHub having more than 38.000 lines of code in total.
+Results:
+ The results from the evaluation indicate that if the lack of isolation hinders white-box test generation, then our approach is able to help: it increases the code coverage reached by the automatically generated tests, while it prevents invoking any external module or dependency. Also, our results act as a unique baseline for the test generation performance of Microsoft Pex on open-source projects.
+Conclusion:
+ Based on the results, our technique might serve well for handling external dependencies in white-box test generation as it increases the coverage reached in such situations, while maintaining the practical applicability of the tests generated on the isolated code.",Information and Software Technology,18 Mar 2025,8,The proposed approach addresses a significant challenge in white-box test generation and has practical applicability for improving code coverage and handling external dependencies.
+https://www.sciencedirect.com/science/article/pii/S0950584920300616,CodeGRU: Context-aware deep learning with gated recurrent unit for source code modeling,September 2020,Not Found,Yasir=Hussain: yaxirhuxxain@nuaa.edu.cn; Zhiqiu=Huang: zqhuang@nuaa.edu.cn; Yu=Zhou: zhouyu@nuaa.edu.cn; Senzhang=Wang: szwang@nuaa.edu.cn,"Abstract
+Context: Recently 
+deep learning
+ based 
+Natural Language Processing
+ (NLP) models have shown great potential in the modeling of 
+source code
+. However, a major limitation of these approaches is that they take 
+source code
+ as simple tokens of text and ignore its contextual, syntactical and structural dependencies.
+Objective: In this work, we present CodeGRU, a 
+gated recurrent unit
+ based 
+source code
+ 
+language model
+ that is capable of capturing source code’s contextual, syntactical and structural dependencies.
+Method: We introduce a novel approach which can capture the 
+source code
+ context by leveraging the source code token types. Further, we adopt a novel approach which can learn variable size context by taking into account source code’s syntax, and structural information.
+Results: We evaluate CodeGRU with real-world data set and it shows that CodeGRU outperforms the state-of-the-art language models and help reduce the vocabulary size up to 24.93%. Unlike previous works, we tested CodeGRU with an independent test set which suggests that our methodology does not requisite the source code comes from the same domain as 
+training data
+ while providing suggestions. We further evaluate CodeGRU with two 
+software engineering
+ applications: source code suggestion, and source code completion.
+Conclusion: Our experiment confirms that the source code’s contextual information can be vital and can help improve the software language models. The extensive evaluation of CodeGRU shows that it outperforms the state-of-the-art models. The results further suggest that the proposed approach can help reduce the vocabulary size and is of practical use for software developers.",Information and Software Technology,18 Mar 2025,7,"The CodeGRU model presents advancements in capturing contextual information in source code, outperforming state-of-the-art models, and reducing vocabulary size, which can benefit software developers."
+https://www.sciencedirect.com/science/article/pii/S0950584920300926,A large scale study on how developers discuss code smells and anti-pattern in Stack Exchange sites,September 2020,Not Found,Amjed=Tahir: a.tahir@massey.ac.nz; Jens=Dietrich: Not Found; Steve=Counsell: Not Found; Sherlock=Licorish: Not Found; Aiko=Yamashita: Not Found,"Abstract
+Context:
+ In this paper, we investigate how developers discuss 
+code smells
+ and 
+anti-patterns
+ across three technical Stack Exchange sites. Understanding developers perceptions of these issues is important to inform and align future research efforts and direct tools vendors to design tailored tools that best suit developers. 
+Method:
+ we mined three Stack Exchange sites and used quantitative and qualitative methods to analyse more than 4000 posts that discuss code smells and anti-patterns.
+Results:
+ results showed that developers often asked their peers to smell their code, thus utilising those sites as an 
+informal, crowd-based
+ code smell/anti-pattern detector. The majority of questions (556) asked were focused on smells like Duplicated Code, 
+Spaghetti Code
+, God and Data Classes. In terms of languages, most of discussions centred around popular languages such as C
+#
+ (772 posts), JavaScript (720) and Java (699), however greater support is available for Java compared to other languages (especially 
+modern languages
+ such as Swift and Kotlin). We also found that developers often discuss the downsides of implementing specific 
+design patterns
+ and ‘flag’ them as potential anti-patterns to be avoided. Some well-defined smells and anti-patterns are discussed as potentially being acceptable practice in certain scenarios. In general, developers actively seek to consider 
+trade-offs
+ to decide whether to use a design pattern, an anti-pattern or not.
+Conclusion:
+ our results suggest that there is a need for: 1) more 
+context and 
+domain sensitive
+ evaluations of code smells and anti-patterns, 2) better guidelines for making 
+trade-offs
+ when applying 
+design patterns
+ or eliminating smells/anti-patterns in industry, and 3) a unified, constantly updated, catalog of smells and anti-patterns. We conjecture that the 
+crowd-based
+ detection approach considers contextual factors and thus tend to be more trusted by developers than automated detection tools.",Information and Software Technology,18 Mar 2025,6,"The study provides insights into how developers discuss code smells and anti-patterns and suggests the need for more context-sensitive evaluations and guidelines, which can inform future research and tool development."
+https://www.sciencedirect.com/science/article/pii/S095058492030104X,Comparing manual and automated feature location in conceptual models: A Controlled experiment,September 2020,Not Found,Francisca=Pérez: mfperez@usj.es; Jorge=Echeverría: jecheverria@usj.es; Raúl=Lapeña: rlapena@usj.es; Carlos=Cetina: ccetina@usj.es,"Abstract
+Context
+Maintenance activities cannot be completed without locating the set of software artifacts that realize a particular feature of a software system. Manual Feature Location (FL) is widely used in industry, but it becomes challenging (time-consuming and error prone) in large software repositories. To reduce manual efforts, automated FL techniques have been proposed. Research efforts in FL tend to make comparisons between automated FL techniques, ignoring manual FL techniques. Moreover, existing research puts the focus on code, neglecting other artifacts such as models.
+Objective
+This paper aims to compare manual FL against automated FL in models to answer important questions about performance, productivity, and satisfaction of both treatments.
+Method
+We run an experiment for comparing manual and automated FL on a set of 18 subjects (5 experts and 13 non-experts) in the domain of our industrial partner, BSH, manufacturer of induction hobs for more than 15 years. We measure performance (recall, precision, and F-measure), productivity (ratio between F-measure and spent time), and satisfaction (perceived ease of use, perceived usefulness, and intention to use) of both treatments, and perform statistical tests to assess whether the obtained differences are significant.
+Results
+Regarding performance, manual FL significantly outperforms automated FL in precision and F-measure (up to 27.79% and 19.05%, respectively), whereas automated FL significantly outperforms manual FL in recall (up to 32.18%). Regarding productivity, manual FL obtains 3.43%/min, which improves automated FL significantly. Finally, there are no significant differences in satisfaction for both treatments.
+Conclusions
+The findings of our work can be leveraged to advance research to improve the results of manual and automated FL techniques. For instance, automated FL in industry faces issues such as low discrimination capacity. In addition, the obtained satisfaction results have implications for the usage and possible combination of manual, automated, and guided FL techniques.",Information and Software Technology,18 Mar 2025,5,"The comparison between manual and automated Feature Location techniques offers valuable insights into their performance, productivity, and satisfaction aspects, contributing to advancing research in this domain."
+https://www.sciencedirect.com/science/article/pii/S0950584920300872,On an optimal analogy-based software effort estimation,September 2020,Not Found,Passakorn=Phannachitta: passakorn.p@cmu.ac.th,"Abstract
+Context:
+ An analogy-based software effort estimation technique estimates the required effort for a new software project based on the total effort used in completing past similar projects. In practice, offering high accuracy can be difficult for the technique when the new software project is not similar to any completed projects. In this case, the accuracy will rely heavily on a process called effort adaptation, where the level of difference between the new project and its most similar past projects is quantified and transformed to the difference in the effort. In the past, attempts to adapt to the effort used 
+machine learning algorithms
+; however, no algorithm was able to offer a significantly higher performance. On the contrary, only a simple heuristic such as scaling the effort by consulting the difference in software size was adopted.
+Objective:
+More recently, million-dollar prize data-science competitions have fostered the rapid development of more powerful 
+machine learning
+ algorithms, such as the 
+Gradient boosting
+ machine and 
+Deep learning algorithm
+. Therefore, this study revisits the comparison of software effort adaptors that are based on heuristics and 
+machine learning algorithms
+.
+Method:
+A systematic comparison of software effort estimators, which they all were fully optimized by Bayesian optimization technique, was carried out on 13 standard benchmark datasets. The comparison was supported by robust performance metrics and robust statistical test methods.
+Conclusion:
+The results suggest a novel strategy to construct a more accurate analogy-based estimator by adopting a combined effort adaptor. In particular, the analogy-based model that adapts to the effort by integrating the 
+Gradient boosting
+ machine algorithm and a traditional adaptation technique based on productivity adjustment has performed the best in the study. Particularly, this model significantly outperformed various state-of-the-art effort estimation techniques, including a current standard benchmark algorithmic-based technique, analogy-based techniques, and machine learning-based techniques.",Information and Software Technology,18 Mar 2025,6,"The study revisits software effort estimation techniques using machine learning algorithms and heuristics, suggesting a novel strategy that significantly outperformed existing techniques, which can have practical implications for software projects."
+https://www.sciencedirect.com/science/article/pii/S0950584920300938,ManQ: Many-objective optimization-based automatic query reduction for IR-based bug localization,September 2020,Not Found,Misoo=Kim: misoo12@skku.edu; Eunseok=Lee: leees@skku.edu,"Abstract
+Context
+An information retrieval-based bug localization (IRBL) method is proposed to localize buggy files using a 
+bug report
+ as a query. The performance of this method strongly depends on the quality of the query. However, these queries contain noise terms that hinder their use for IRBL. To improve the quality of a query, an automatic query reduction (AQR) technique that removes noise words from the query is needed.
+Objective
+Our objective is to develop an AQR method for IRBL. Most existing AQR techniques are based on single 
+objective optimization
+, which presents issues in terms of biased and limited performance. To solve these issues, it is necessary to find a subquery that comprehensively satisfies all of their objectives.
+Method
+We propose an AQR technique called ManQ, which is a many-objective optimization-based AQR method for IRBL. We design 15 objective functions to (1) maintain the query quality properties, (2) maintain the important terms, (3) maintain the initial information, and (4) minimize the query length. ManQ finds a final subquery that maximize the return values of these objective functions.
+Results
+The experimental results show that ManQ improves the quality of poor queries. We also show that if we select the best query among the candidates generated by ManQ, we can increase the number of improved queries by more than 53.4% of all queries.
+Conclusion
+ManQ improves the performance of IRBL by improving the quality of queries through a many-objective optimization approach.",Information and Software Technology,18 Mar 2025,8,"The proposed AQR method for IRBL using many-objective optimization has the potential to significantly improve the quality of bug queries, which could be beneficial for early-stage ventures developing software products."
+https://www.sciencedirect.com/science/article/pii/S0950584920300641,Multiple fault localization of software programs: A systematic literature review,August 2020,Not Found,Abubakar=Zakari: abubakar.zakari@yahoo.com; Sai Peck=Lee: Not Found; Rui=Abreu: Not Found; Babiker Hussien=Ahmed: Not Found; Rasheed Abubakar=Rasheed: Not Found,"Abstract
+Context
+Multiple 
+fault localization
+ (MFL) is the act of identifying the locations of multiple faults (more than one fault) in a faulty software program. This is known to be more complicated, tedious, and costly in comparison to the traditional practice of presuming that a software contains a single fault. Due to the increasing interest in MFL by the research community, a broad spectrum of MFL debugging approaches and solutions have been proposed and developed.
+Objective
+The aim of this study is to systematically review existing research on MFL in the 
+software fault
+ localization (SFL) domain. This study also aims to identify, categorize, and synthesize relevant studies in the research domain.
+Method
+Consequently, using an evidence-based 
+systematic methodology
+, we identified 55 studies relevant to four research questions. The methodology provides a systematic selection and evaluation process with rigorous and repeatable evidence-based studies selection process.
+Result
+The result of the systematic review shows that research on MFL is gaining momentum with stable growth in the last 5 years. Three prominent MFL debugging approaches were identified, i.e. One-bug-at-a-time debugging approach (OBA), parallel debugging approach, and multiple-bug-at-a-time debugging approach (MBA), with OBA debugging approach being utilized the most.
+Conclusion
+The study concludes with some identified research challenges and suggestions for future research. Although MFL is becoming of grave concern, existing solutions in the field are less mature. Studies utilizing real faults in their experiments are scarce. Concrete solutions to reduce MFL debugging time and cost by adopting an approach such as MBA debugging approach are also less, which require more attention from the research community.",Information and Software Technology,18 Mar 2025,7,"The systematic review of MFL debugging approaches provides valuable insights for startups working on software development, although the practical implications may be more relevant to established companies."
+https://www.sciencedirect.com/science/article/pii/S0950584920300641,Multiple fault localization of software programs: A systematic literature review,August 2020,Not Found,Abubakar=Zakari: abubakar.zakari@yahoo.com; Sai Peck=Lee: Not Found; Rui=Abreu: Not Found; Babiker Hussien=Ahmed: Not Found; Rasheed Abubakar=Rasheed: Not Found,"Abstract
+Context
+Multiple 
+fault localization
+ (MFL) is the act of identifying the locations of multiple faults (more than one fault) in a faulty software program. This is known to be more complicated, tedious, and costly in comparison to the traditional practice of presuming that a software contains a single fault. Due to the increasing interest in MFL by the research community, a broad spectrum of MFL debugging approaches and solutions have been proposed and developed.
+Objective
+The aim of this study is to systematically review existing research on MFL in the 
+software fault
+ localization (SFL) domain. This study also aims to identify, categorize, and synthesize relevant studies in the research domain.
+Method
+Consequently, using an evidence-based 
+systematic methodology
+, we identified 55 studies relevant to four research questions. The methodology provides a systematic selection and evaluation process with rigorous and repeatable evidence-based studies selection process.
+Result
+The result of the systematic review shows that research on MFL is gaining momentum with stable growth in the last 5 years. Three prominent MFL debugging approaches were identified, i.e. One-bug-at-a-time debugging approach (OBA), parallel debugging approach, and multiple-bug-at-a-time debugging approach (MBA), with OBA debugging approach being utilized the most.
+Conclusion
+The study concludes with some identified research challenges and suggestions for future research. Although MFL is becoming of grave concern, existing solutions in the field are less mature. Studies utilizing real faults in their experiments are scarce. Concrete solutions to reduce MFL debugging time and cost by adopting an approach such as MBA debugging approach are also less, which require more attention from the research community.",Information and Software Technology,18 Mar 2025,7,"The systematic review of MFL debugging approaches provides valuable insights for startups working on software development, although the practical implications may be more relevant to established companies."
+https://www.sciencedirect.com/science/article/pii/S0950584920300665,LTRWES: A new framework for security bug report detection,August 2020,Not Found,Yuan=Jiang: jiangyuan@hit.edu.cn; Pengcheng=Lu: pclu57@gmail.com; Xiaohong=Su: sxh@hit.edu.cn; Tiantian=Wang: sweetwtt@126.com,"Abstract
+Context
+: Security 
+bug reports
+ (SBRs) usually contain security-related vulnerabilities in software products, which could be exploited by malicious attackers. Hence, it is important to identify SBRs quickly and accurately among 
+bug reports
+ (BRs) that have been disclosed in 
+bug tracking systems
+. Although a few methods have been already proposed for the detection of SBRs, challenging issues still remain due to noisy samples, 
+class imbalance
+ and data scarcity.
+Object
+: This motivates us to reveal the potential challenges faced by the state-of-the-art SBRs prediction methods from the viewpoint of data filtering and representation. Furthermore, the purpose of this paper is also to provide a general framework and new solutions to solve these problems.
+Method
+: In this study, we propose a novel approach LTRWES that incorporates learning to rank and 
+word embedding
+ into the identification of SBRs. Unlike previous keyword-based approaches, LTRWES is a content-based data filtering and representation framework that has several 
+desirable properties
+ not shared in other methods. Firstly, it exploits ranking model to efficiently filter non-security bug reports (NSBRs) that have higher content similarity with respect to SBRs. Secondly, it applies 
+word embedding
+ technology to transform the rest of NSBRs, together with SBRs, into low-dimensional real-value vectors.
+Result
+: Experiment results on benchmark and large real-world datasets show that our proposed method outperforms the state-of-the-art method.
+Conclusion
+: Overall, the LTRWES is valid with high performance. It will help security engineers to identify SBRs from thousands of NSBRs more accurately than existing algorithms. Therefore, this will positively encourage the research and development of the content-based methods for security bug report detection.",Information and Software Technology,18 Mar 2025,9,The proposed LTRWES method for identifying security bug reports could have a significant impact on early-stage ventures by helping them quickly and accurately detect vulnerabilities in their software products.
+https://www.sciencedirect.com/science/article/pii/S0950584920300665,LTRWES: A new framework for security bug report detection,August 2020,Not Found,Yuan=Jiang: jiangyuan@hit.edu.cn; Pengcheng=Lu: pclu57@gmail.com; Xiaohong=Su: sxh@hit.edu.cn; Tiantian=Wang: sweetwtt@126.com,"Abstract
+Context
+: Security 
+bug reports
+ (SBRs) usually contain security-related vulnerabilities in software products, which could be exploited by malicious attackers. Hence, it is important to identify SBRs quickly and accurately among 
+bug reports
+ (BRs) that have been disclosed in 
+bug tracking systems
+. Although a few methods have been already proposed for the detection of SBRs, challenging issues still remain due to noisy samples, 
+class imbalance
+ and data scarcity.
+Object
+: This motivates us to reveal the potential challenges faced by the state-of-the-art SBRs prediction methods from the viewpoint of data filtering and representation. Furthermore, the purpose of this paper is also to provide a general framework and new solutions to solve these problems.
+Method
+: In this study, we propose a novel approach LTRWES that incorporates learning to rank and 
+word embedding
+ into the identification of SBRs. Unlike previous keyword-based approaches, LTRWES is a content-based data filtering and representation framework that has several 
+desirable properties
+ not shared in other methods. Firstly, it exploits ranking model to efficiently filter non-security bug reports (NSBRs) that have higher content similarity with respect to SBRs. Secondly, it applies 
+word embedding
+ technology to transform the rest of NSBRs, together with SBRs, into low-dimensional real-value vectors.
+Result
+: Experiment results on benchmark and large real-world datasets show that our proposed method outperforms the state-of-the-art method.
+Conclusion
+: Overall, the LTRWES is valid with high performance. It will help security engineers to identify SBRs from thousands of NSBRs more accurately than existing algorithms. Therefore, this will positively encourage the research and development of the content-based methods for security bug report detection.",Information and Software Technology,18 Mar 2025,9,The proposed LTRWES method for identifying security bug reports could have a significant impact on early-stage ventures by helping them quickly and accurately detect vulnerabilities in their software products.
+https://www.sciencedirect.com/science/article/pii/S0950584920300707,A feedback-directed method of evolutionary test data generation for parallel programs,August 2020,Not Found,Dunwei=Gong: Not Found; Feng=Pan: Not Found; Tian=Tian: tian_tiantian@126.com; Su=Yang: Not Found; Fanlin=Meng: Not Found,"Abstract
+Context:
+ 
+Genetic algorithms
+ can be utilized for automatic test data generation. Test data are encoded as individuals which are evolved for a number of generations using genetic operators. Test data of a parallel program include not only the program input, but also the communication information between each pair of processes. Traditional genetic algorithms, however, do not make full use of information provided by a population’s evolution, resulting in a low efficiency in generating test data. 
+Objective:
+ This paper emphasizes the problem of test data generation for parallel programs, and presents a feedback-directed genetic algorithm for generating test data of path coverage. 
+Method:
+ Information related to a schedule sequence is exploited to improve genetic operators. Specifically, a scheduling sequence is evaluated according to how well an individual covers the target path. The probability of the crossover and 
+mutation points
+ being located in the region is determined based on the evaluation result, which prevents a good schedule sequence from being destroyed. If crossover and mutation are performed in the scheduling sequence, the location of crossover and 
+mutation points
+ is further determined according to the relationship between nodes to be covered and the scheduling sequence. In this way, the population can be evolved in a narrowed 
+search space
+. 
+Results:
+ The proposed algorithm is applied to test 11 parallel programs. The experimental results show that, compared with the genetic algorithm without utilizing information during the population evolution, the proposed algorithm significantly reduces the number of generations and the time consumption. 
+Conclusion:
+ The proposed algorithm can greatly improve the efficiency in evolutionary test data generation.",Information and Software Technology,18 Mar 2025,5,"The proposed algorithm for test data generation in parallel programs shows improved efficiency, but may have limited practical impact on European early-stage ventures."
+https://www.sciencedirect.com/science/article/pii/S0950584920300690,An experimental and practical study on the equivalent mutant connection: An evolutionary approach,August 2020,Not Found,Pedro=Delgado-Pérez: pedro.delgado@uca.es; Francisco=Chicano: Not Found,"Abstract
+Context
+Mutation testing is considered to be a powerful approach to assess and improve the quality of test suites. However, this technique is expensive mainly because some mutants are semantically equivalent to the original program; in general, equivalent mutants require manual revision to differentiate them from useful ones, which is known as the Equivalent Mutant Problem (EMP).
+Objective
+In the past, several authors have proposed different techniques to individually identify certain equivalent mutants, with notable advances in the last years. In our work, by contrast, we address the EMP from a global perspective. Namely, we wonder the extent to which equivalent mutants are connected (i.e., whether they share 
+mutation operators
+ and code areas) as well as the extent to which the knowledge of that connection can benefit the mutant selection process. Such a study could allow going beyond the implicit limit in the traditional individual detection of equivalent mutants.
+Method
+We use an 
+evolutionary algorithm
+ to select the mutants, an approach called Evolutionary Mutation Testing (EMT). We propose a new derived version, 
+Equivalence-Aware EMT
+ (EA-EMT), which penalizes the fitness of known equivalent mutants so that they do not transfer their features to the next generations of mutants.
+Results
+In our experiments applying EMT to well-known C++ programs, we found that (i) equivalent mutants often originate from other equivalent mutants (over 60% on average); (ii) EA-EMT’s approach of penalizing known equivalent mutants provides better results than the original EMT in most of the cases (notably, the more equivalent mutants are detected, the better); and (iii) we can combine EA-EMT with Trivial Compiler Equivalence as a way to automatically identify equivalent mutants in a real situation, reaching a more stable version of EMT.
+Conclusions
+This novel approach opens the way for improvement in other related areas that deal with equivalent versions.",Information and Software Technology,18 Mar 2025,7,"The Evolutionary Mutation Testing approach addresses the Equivalent Mutant Problem from a global perspective, showing promising results that could benefit startups in improving test suites."
+https://www.sciencedirect.com/science/article/pii/S0950584920300501,Automatic block dimensioning on GPU-accelerated programs through particle swarm optimization,July 2020,Not Found,Claudio M.N.A.=Pereira: cmnap@ien.gov.br; Andre L.S.=Pinheiro: Not Found; Roberto=Schirru: Not Found,"Abstract
+Context
+Nowadays, the use of GPU to improve performance of computationally expensive systems are widely explored. On GPU-accelerated programs, performance is related to the partition of the problem into blocks of threads in such a way that the parallel tasks to be executed better fit the GPU architecture. Although there exists some general guidelines to help defining 
+block dimensions
+, finding the optimum partition is still a complex and problem dependent task. In this work, it has been investigated the use of 
+particle swarm optimization
+ (PSO) to optimize blocks dimensions aiming to minimize 
+programs execution time
+. The approach was evaluated on a GPU-accelerated wind field calculation program, in which block dimensioning was based on literature guidelines and empirical adjusts. Before PSO optimization, the program was about 25 times faster than the sequential program. After applying PSO, speedup increased to about 60 times. Unexpected optimized configurations were observed, ratifying that finding optimum dimensioning is a complex task. So the use of a 
+robust optimization
+ tool, such as PSO, demonstrated to be very profitable, allowing automatic optimization of blocks dimensions without necessity of a 
+priori knowledge
+ about problem, programs peculiarities and GPU architecture.
+Objective
+Improve speedup of GPU-accelerated programs by automatic defining optimized 
+block dimensions
+ using PSO.
+Method
+A GPU-accelerated wind field calculation problem has been focused. A PSO was interfaced to the program in order to find the block dimensions that leads to a minimum 
+execution time
+. Results were compared to literature results.
+Results
+The speedup obtained with the proposed approach is more than 2 times the original speedup.
+Conclusion
+PSO, demonstrated to be very profitable, allowing automatic optimization of blocks dimensions without necessity of a 
+priori knowledge
+ about problem/programs peculiarities and/or GPU architecture.",Information and Software Technology,18 Mar 2025,8,"The use of PSO to optimize blocks dimensions for GPU-accelerated programs demonstrates significant speedup improvements, offering valuable practical implications for startups working on computationally expensive systems."
+https://www.sciencedirect.com/science/article/pii/S0950584920300501,Automatic block dimensioning on GPU-accelerated programs through particle swarm optimization,July 2020,Not Found,Claudio M.N.A.=Pereira: cmnap@ien.gov.br; Andre L.S.=Pinheiro: Not Found; Roberto=Schirru: Not Found,"Abstract
+Context
+Nowadays, the use of GPU to improve performance of computationally expensive systems are widely explored. On GPU-accelerated programs, performance is related to the partition of the problem into blocks of threads in such a way that the parallel tasks to be executed better fit the GPU architecture. Although there exists some general guidelines to help defining 
+block dimensions
+, finding the optimum partition is still a complex and problem dependent task. In this work, it has been investigated the use of 
+particle swarm optimization
+ (PSO) to optimize blocks dimensions aiming to minimize 
+programs execution time
+. The approach was evaluated on a GPU-accelerated wind field calculation program, in which block dimensioning was based on literature guidelines and empirical adjusts. Before PSO optimization, the program was about 25 times faster than the sequential program. After applying PSO, speedup increased to about 60 times. Unexpected optimized configurations were observed, ratifying that finding optimum dimensioning is a complex task. So the use of a 
+robust optimization
+ tool, such as PSO, demonstrated to be very profitable, allowing automatic optimization of blocks dimensions without necessity of a 
+priori knowledge
+ about problem, programs peculiarities and GPU architecture.
+Objective
+Improve speedup of GPU-accelerated programs by automatic defining optimized 
+block dimensions
+ using PSO.
+Method
+A GPU-accelerated wind field calculation problem has been focused. A PSO was interfaced to the program in order to find the block dimensions that leads to a minimum 
+execution time
+. Results were compared to literature results.
+Results
+The speedup obtained with the proposed approach is more than 2 times the original speedup.
+Conclusion
+PSO, demonstrated to be very profitable, allowing automatic optimization of blocks dimensions without necessity of a 
+priori knowledge
+ about problem/programs peculiarities and/or GPU architecture.",Information and Software Technology,18 Mar 2025,8,"Similar to abstract 23, the use of PSO for optimizing block dimensions in GPU-accelerated programs is highly impactful and beneficial for early-stage ventures focused on performance optimization."
+https://www.sciencedirect.com/science/article/pii/S0950584920300458,Search-based fault localisation: A systematic mapping study,July 2020,Not Found,Plinio S.=Leitao-Junior: plinio@inf.ufg.br; Diogo M.=Freitas: diogom42@gmail.com; Silvia R.=Vergilio: silvia@inf.ufpr.br; Celso G.=Camilo-Junior: celso@inf.ufg.br; Rachel=Harrison: rachel.harrison@brookes.ac.uk,"Abstract
+Context
+Software 
+Fault Localisation
+ (FL) refers to finding faulty software elements related to failures produced as a result of test case execution. This is a laborious and time consuming task. To allow FL automation search-based algorithms have been successfully applied in the field of Search-Based Fault Localisation (SBFL). However, there is no study mapping the SBFL field to the best of our knowledge and we believe that such a map is important to promote new advances in this field.
+Objective
+To present the results of a mapping study on SBFL, by characterising the proposed methods, identifying sources of used information, adopted evaluation functions, applied algorithms and elements regarding reported experiments.
+Method
+Our mapping followed a defined process and a search protocol. The conducted analysis considers different dimensions and categories related to the main characteristics of 
+SBFL methods
+.
+Results
+All methods are grounded on the coverage spectra category. Overall the methods search for solutions related to suspiciousness formulae to identify possible faulty code elements. Most studies use 
+evolutionary algorithms
+, mainly 
+Genetic Programming
+, by using a single-objective function. There is little investigation of real-and-multiple-fault scenarios, and the subjects are mostly written in C and Java. No consensus was observed on how to apply the 
+evaluation metrics
+.
+Conclusions
+Search-based fault localisation has seen a rise in interest in the past few years and the number of studies has been growing. We identified some research opportunities such as exploring new sources of fault data, exploring multi-objective algorithms, analysing benchmarks according to some classes of faults, as well as, the use of a unique definition for evaluation measures.",Information and Software Technology,18 Mar 2025,6,"The mapping study on Search-Based Fault Localisation provides insights into research opportunities, but the direct practical value for European early-stage ventures may be limited at this point."
+https://www.sciencedirect.com/science/article/pii/S0950584920300471,Testing and verification of neural-network-based safety-critical control software: A systematic literature review,July 2020,"Software testing and verification, Neural network, Safety-critical control software, Systematic literature review",Jin=Zhang: jin.zhang@ntnu.no; Jingyue=Li: jingyue.li@ntnu.no,"Abstract
+Context:
+ 
+Neural Network
+ (NN) algorithms have been successfully adopted in a number of Safety-Critical Cyber-Physical Systems (SCCPSs). Testing and Verification (T&V) of NN-based control software in safety-critical domains are gaining interest and attention from both 
+software engineering
+ and safety engineering researchers and practitioners.
+Objective:
+ With the increase in studies on the T&V of NN-based control software in safety-critical domains, it is important to systematically review the state-of-the-art T&V methodologies, to classify approaches and tools that are invented, and to identify challenges and gaps for future studies.
+Method:
+ By searching the six most relevant digital libraries, we retrieved 950 papers on the T&V of NN-based Safety-Critical Control Software (SCCS). Then we filtered the papers based on the predefined inclusion and exclusion criteria and applied snowballing to identify new relevant papers.
+Results:
+ To reach our result, we selected 83 primary papers published between 2011 and 2018, applied the thematic analysis approach for analyzing the data extracted from the selected papers, presented the classification of approaches, and identified challenges.
+Conclusion:
+ The approaches were categorized into five high-order themes, namely, assuring robustness of NNs, improving the failure resilience of NNs, measuring and ensuring test completeness, assuring safety properties of NN-based control software, and improving the 
+interpretability
+ of NNs. From the industry perspective, improving the interpretability of NNs is a crucial need in safety-critical applications. We also investigated nine safety integrity properties within four major safety lifecycle phases to investigate the achievement level of T&V goals in IEC 61508-3. Results show that correctness, completeness, freedom from intrinsic faults, and 
+fault tolerance
+ have drawn most attention from the research community. However, little effort has been invested in achieving repeatability, and no reviewed study focused on precisely defined testing configuration or defense against 
+common cause failure
+.",Information and Software Technology,18 Mar 2025,7,"The study on testing and verification of NN-based control software in safety-critical domains addresses important challenges and gaps in the industry, impacting startups working in those domains."
+https://www.sciencedirect.com/science/article/pii/S095058491930240X,Management of quality requirements in agile and rapid software development: A systematic mapping study,July 2020,Not Found,Woubshet=Behutiye: woubshet.behutiye@oulu.fi; Pertti=Karhapää: Not Found; Lidia=López: Not Found; Xavier=Burgués: Not Found; Silverio=Martínez-Fernández: Not Found; Anna Maria=Vollmer: Not Found; Pilar=Rodríguez: Not Found; Xavier=Franch: Not Found; Markku=Oivo: Not Found,"Abstract
+Context
+Quality requirements (QRs) describe the desired 
+quality of software
+, and they play an important role in the success of software projects. In 
+agile software development
+ (ASD), QRs are often ill-defined and not well addressed due to the focus on quickly delivering functionality. Rapid software development (RSD) approaches (e.g., continuous delivery and continuous deployment), which shorten delivery times, are more prone to neglect QRs. Despite the significance of QRs in both ASD and RSD, there is limited synthesized knowledge on their management in those approaches.
+Objective
+This study aims to synthesize state-of-the-art knowledge about QR management in ASD and RSD, focusing on three aspects: bibliometric, strategies, and challenges.
+Research method
+Using a 
+systematic mapping study
+ with a snowballing search strategy, we identified and structured the literature on QR management in ASD and RSD.
+Results
+We found 156 primary studies: 106 are empirical studies, 16 are experience reports, and 34 are theoretical studies. Security and performance were the most commonly reported QR types. We identified various QR management strategies: 74 practices, 43 methods, 13 models, 12 frameworks, 11 advices, 10 tools, and 7 guidelines. Additionally, we identified 18 categories and 4 non-recurring challenges of managing QRs. The limited ability of ASD to handle QRs, time constraints due to short iteration cycles, limitations regarding the testing of QRs and neglect of QRs were the top categories of challenges.
+Conclusion
+Management of QRs is significant in ASD and is becoming important in RSD. This study identified research gaps, such as the need for more tools and guidelines, lightweight QR management strategies that fit short iteration cycles, investigations of the link between QRs challenges and technical debt, and extension of empirical validation of existing strategies to a wider context. It also synthesizes QR management strategies and challenges, which may be useful for practitioners.",Information and Software Technology,18 Mar 2025,6,"The synthesis of knowledge on quality requirement management in agile and rapid software development provides valuable insights for startups focusing on software projects, although it may not directly impact early-stage ventures."
+https://www.sciencedirect.com/science/article/pii/S0950584920300422,Orientation-based Ant colony algorithm for synthesizing the test scenarios in UML activity diagram,July 2020,Not Found,Vinay=Arora: vinay.arora@thapar.edu; Maninder=Singh: Not Found; Rajesh=Bhatia: Not Found,"Abstract
+Context
+The model-based analysis is preferred over the code-based analysis as it speeds up the development process and directs the guiding effort. In the software industry, the Unified Modeling Language (UML) is a set standard followed by the developers as well as system analysts to extract all attainable paths of controls, usually known as scenarios under an activity diagram.
+Objective
+In this manuscript, a bio-inspired methodology has been applied on concurrent sub-part of a UML activity diagram to fetch various feasible test scenarios.
+Method
+The food search pattern of an ant has been taken as a base heuristic. An orientation factor has been introduced in the existing ant colony optimization algorithm. Experiments have been performed using three student projects, five synthetic models and an openly available model repository named LINDHOLMEN data-set at Github.
+Results
+The statistical analysis has validated the results obtained through various existing approaches and the proposed approach. Experimentation shows that the orientation-based ant colony algorithm has produced better results as compared to the existing Genetic Algorithm (GA) and Ant Colony Optimization (ACO) on the basis of feasible test scenarios generated.",Information and Software Technology,18 Mar 2025,5,The bio-inspired methodology for extracting test scenarios from UML activity diagrams offers an interesting approach that could potentially benefit startups in the software industry.
+https://www.sciencedirect.com/science/article/pii/S0950584920300392,BVDetector: A program slice-based binary code vulnerability intelligent detection system,July 2020,Not Found,Junfeng=Tian: Not Found; Wenjing=Xing: Not Found; Zhen=Li: lizhen@hbu.edu.cn,"Abstract
+Context
+Software 
+vulnerability detection
+ is essential to ensure cybersecurity. Currently, most software is published in binary form, thus researchers can only detect vulnerabilities in these software by analysing binary programs. Although existing research approaches have made a substantial contribution to binary 
+vulnerability detection
+, there are still many deficiencies, such as high false positive rate, detection with 
+coarse granularity
+, and dependence on expert experience.
+Objective
+The goal of this study is to perform fine-grained intelligent detection on the vulnerabilities in binary programs. This leads us to propose a fine-grained representation of binary programs and introduce 
+deep learning techniques
+ to intelligently detect the vulnerabilities.
+Method
+We use program slices of library/API function calls to represent binary programs. Additionally, we design and construct a Binary 
+Gated Recurrent Unit
+ (BGRU) network model to intelligently learn 
+vulnerability patterns
+ and automatically detect vulnerabilities in binary programs.
+Results
+This approach yields the design and implementation of a program slice-based binary code vulnerability intelligent detection system called BVDetector. We show that BVDetector can effectively detect vulnerabilities related to library/API function calls in binary programs, which reduces the false positive rate and 
+false negative
+ rate of vulnerability detection.
+Conclusion
+This paper proposes a program slice-based binary code vulnerability intelligent detection system called BVDetector. The experimental results show that BVDetector can effectively reduce the 
+false negative
+ rate and false positive rate of binary vulnerability detection.",Information and Software Technology,18 Mar 2025,8,"The fine-grained intelligent detection system for binary vulnerabilities using deep learning techniques addresses crucial cybersecurity concerns, providing practical value to startups working on software security."
+https://www.sciencedirect.com/science/article/pii/S0950584920300628,Deep learning model for end-to-end approximation of COSMIC functional size based on use-case names,July 2020,Not Found,Mirosław=Ochodek: mochodek@cs.put.poznan.pl; Sylwia=Kopczyńska: sylwia.kopczynska@cs.put.poznan.pl; Miroslaw=Staron: miroslaw.staron@cse.gu.se,"Abstract
+Context
+COSMIC is a widely used functional size measurement (FSM) method that supports software development effort estimation. The FSM methods measure functional product size based on functional requirements. Unfortunately, when the description of the product’s functionality is often abstract or incomplete, the size of the product can only be approximated since the object to be measured is not yet fully described. Also, the measurement performed by human-experts can be time-consuming, therefore, it is worth considering automating it.
+Objective
+Our objective is to design a new prediction model capable of approximating COSMIC-size of use cases based only on their names that is easier to train and more accurate than existing techniques.
+Method
+Several neural-network architectures are investigated to build a COSMIC size 
+approximation
+ model. The accuracy of models is evaluated in a simulation study on the dataset of 437 use cases from 27 software development projects in the 
+Management Information Systems
+ (MIS) domain. The accuracy of the models is compared with the Average Use-Case 
+approximation
+ (AUC), and two recently proposed two-step models—Average Use-Case Goal-aware Approximation (AUCG) and 
+Bayesian Network
+ Use-Case Goal AproxImatioN (BN-UCGAIN).
+Results
+The best prediction accuracy was obtained for a 
+convolutional neural network
+ using a word-embedding model trained on Wikipedia+Gigaworld. The accuracy of the model outperformed the baseline AUC model by ca. 20%, and the two-step models by ca. 5–7%. In the worst case, the improvement in the prediction accuracy is visible after estimating 10 use cases.
+Conclusions
+The proposed 
+deep learning
+ model can be used to automatically approximate COSMIC size of 
+software applications
+ for which the requirements are documented in the form of use cases (or at least in the form of use-case names). The advantage of the model is that it does not require collecting 
+historical data
+ other than COSMIC size and names of use cases.",Information and Software Technology,18 Mar 2025,6,"The development of a deep learning model to approximate COSMIC size of software applications based on use-case names has the potential to streamline software development processes for startups, although the impact may vary based on the domain."

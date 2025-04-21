@@ -1,0 +1,106 @@
+
+## 🚀 FastAPI Application Setup Guide for Windows
+
+Follow the steps below to set up and run the FastAPI application on your Windows machine.
+
+---
+
+### 📦 Prerequisites
+
+- Python 3.8+  
+  Make sure Python is installed. You can check by running:
+  ```
+  python --version
+  ```
+
+- If Python is not installed:  
+  Download and install it from https://www.python.org/downloads/.  
+  ✅ Make sure to check the "Add Python to PATH" option during installation.
+
+---
+
+### 🛠 Step-by-Step Setup
+
+#### 1. Clone or Download the Project
+
+If the project is hosted on GitHub, you can clone it using:
+
+```
+git clone https://github.com/your-username/your-repo-name.git
+cd your-repo-name
+```
+
+Or simply download and extract the `.zip` file of the project.
+
+---
+
+#### 2. Create a Virtual Environment
+
+```
+python -m venv venv
+```
+
+This will create a folder named `venv` containing your virtual environment.
+
+---
+
+#### 3. Activate the Virtual Environment
+
+```
+venv\Scripts\activate
+```
+
+You’ll see `(venv)` in the terminal prompt, which means the environment is active.
+
+---
+
+#### 4. Upgrade pip (optional but recommended)
+
+```
+python -m pip install --upgrade pip
+```
+
+---
+
+#### 5. Install Project Dependencies
+
+Make sure a `requirements.txt` file is present in the project folder. Then run:
+
+```
+pip install -r requirements.txt
+```
+
+This will install FastAPI and any other required packages.
+
+---
+
+#### 6. Run the FastAPI Application
+
+If your FastAPI app is in a file named `main.py`, you can run:
+
+```
+uvicorn main:app --reload
+```
+
+- `main`: the Python file without `.py` extension
+- `app`: the FastAPI instance inside the file
+
+---
+
+### ✅ Access the App
+
+Once the server is running, open your browser and go to:
+
+- API Root: http://127.0.0.1:8000
+- Interactive Docs (Swagger): http://127.0.0.1:8000/docs
+- Alternative Docs (ReDoc): http://127.0.0.1:8000/redoc
+
+---
+
+### 🧹 Optional: Deactivate Virtual Environment
+
+When done, you can deactivate the virtual environment by simply typing:
+
+```
+deactivate
+```
