@@ -37,12 +37,14 @@ def get_links_from_issues_science_direct():
             
             year_to_keep = ["2019","2020","2021","2022","2023","2024","2025","2026","2027"]
             
-            # Accept cookies if the button appears
-            accept_cookies_button = WebDriverWait(driver, 30).until(
-                EC.element_to_be_clickable((By.XPATH, "//button[contains(text(), 'Accept all cookies')]"))
-            )
-            accept_cookies_button.click()
-        
+            try:
+                # Accept cookies if the button appears
+                accept_cookies_button = WebDriverWait(driver, 30).until(
+                    EC.element_to_be_clickable((By.XPATH, "//button[contains(text(), 'Accept all cookies')]"))
+                )
+                accept_cookies_button.click()
+            except Exception as e:
+                print(f"Error in accepting cookies")
             # Wait for the `ol` element with the class to load
             WebDriverWait(driver, 20).until(
                 EC.presence_of_element_located((By.CSS_SELECTOR, '.accordion-container.u-font-sans.js-accordion-container'))
@@ -112,11 +114,13 @@ def actual_paper_links(total_links):
             # Optional: Wait for a specific element to load on the page
             try:
                 if index == 0:
-                    accept_cookies_button = WebDriverWait(driver, 30).until(
-                        EC.element_to_be_clickable((By.XPATH, "//button[contains(text(), 'Accept all cookies')]"))
-                    )
-                    accept_cookies_button.click()
-    
+                    try:
+                        accept_cookies_button = WebDriverWait(driver, 30).until(
+                            EC.element_to_be_clickable((By.XPATH, "//button[contains(text(), 'Accept all cookies')]"))
+                        )
+                        accept_cookies_button.click()
+                    except Exception as e:
+                        print(f"Error in accepting cookies")
                 # Wait for the `body` tag to load
                 WebDriverWait(driver, 20).until(
                     EC.presence_of_element_located((By.TAG_NAME, 'body'))
@@ -430,7 +434,7 @@ def add_columns_score_justification_created_on(data, score_justification):
     data_frame = pd.DataFrame(data)
     today_str = date.today().strftime("%d %b %Y")  # e.g., '21 Mar 2025'
 
-    data_frame["created on"] = today_str
+    data_frame["created_on"] = today_str
     data_frame["score"] = None
     data_frame["justification"] = None
     

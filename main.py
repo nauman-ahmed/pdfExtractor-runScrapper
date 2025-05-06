@@ -18,6 +18,8 @@ import fitz
 from datetime import date
 from pydantic import BaseModel
 from dotenv import load_dotenv
+from sqlalchemy.exc import OperationalError
+from sqlalchemy import create_engine, text
 
 app = FastAPI()
 
@@ -46,7 +48,7 @@ client = OpenAI(
 
 
 
-#Base.metadata.create_all(bind=engine)
+# Base.metadata.create_all(bind=engine)
 
 def get_db():
     db = SessionLocal()
@@ -467,6 +469,14 @@ async def upload_pdf(
 ## END HERE
 
 
+@app.get("/health")
+def health_check():
+    try:
+        with engine.connect() as connection:
+            connection.execute(text("SELECT 1"))
+        return {"status": "ok", "database": "connected"}
+    except OperationalError:
+        return {"status": "error", "database": "not connected"}
 
 ## From here, these endpoints are being used in the scrapper
 
